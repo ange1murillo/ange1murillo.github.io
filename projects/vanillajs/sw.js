@@ -1,21 +1,21 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('vanjstodo-store').then(function(cache) {
+   caches.open('vanjs-todo-store').then(function(cache) {
      return cache.addAll([
-       '/projects/vanillajs/',
-       '/projects/vanillajs/index.html',
-       '/projects/vanillajs/index.js',
-       '/projects/vanillajs/images/pirate_PNG90.png',
-       '/projects/vanillajs/js/app.js',
-       '/projects/vanillajs/js/controller.js',
-       '/projects/vanillajs/js/helpers.js',
-       '/projects/vanillajs/js/model.js',
-       '/projects/vanillajs/js/store.js',
-       '/projects/vanillajs/js/template.js',
-       '/projects/vanillajs/js/view.js',
-       '/projects/vanillajs/node_modules/todomvc-app-css/index.css',
-       '/projects/vanillajs/node_modules/todomvc-common/base.css',
-       '/projects/vanillajs/node_modules/todomvc-common/base.js'
+       '/vanillajs/',
+       '/vanillajs/index.html',
+       '/vanillajs/index.js',
+       '/vanillajs/images/pirate_PNG90.png',
+       '/vanillajs/js/app.js',
+       '/vanillajs/js/controller.js',
+       '/vanillajs/js/helpers.js',
+       '/vanillajs/js/model.js',
+       '/vanillajs/js/store.js',
+       '/vanillajs/js/template.js',
+       '/vanillajs/js/view.js',
+       '/vanillajs/node_modules/todomvc-app-css/index.css',
+       '/vanillajs/node_modules/todomvc-common/base.css',
+       '/vanillajs/node_modules/todomvc-common/base.js'
      ]);
    })
  );
