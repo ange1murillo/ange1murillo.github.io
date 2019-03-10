@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('vanjs-todo-store').then(function(cache) {
+   caches.open('vanjstodo-store').then(function(cache) {
      return cache.addAll([
        '/projects/vanillajs/',
        '/projects/vanillajs/index.html',
