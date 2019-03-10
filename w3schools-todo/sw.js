@@ -1,13 +1,12 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('vanjs-todo-store').then(function(cache) {
+   caches.open('vanjstodo-store').then(function(cache) {
      return cache.addAll([
        '/w3schools/',
        '/w3schools/index.html',
        '/w3schools/index.js',
-       '/w3schools/images/pirate_PNG90.png',
-       '/w3schools/styes.css',
-       '/w3schools/script.js'
+       '/w3schools/images/pirate_PNG90.png'
+       
      ]);
    })
  );
