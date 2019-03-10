@@ -1,6 +1,6 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('vanjs-todo-store').then(function(cache) {
+   caches.open('vanjstodo-store').then(function(cache) {
      return cache.addAll([
        '/w3schools-todo/',
        '/w3schools-todo/index.html',
