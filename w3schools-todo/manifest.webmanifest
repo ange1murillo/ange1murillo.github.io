@@ -4,9 +4,9 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "images/zombattck.jpg",
+      "src": "images/jigsaw.png",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "name": "w3schools PWA",

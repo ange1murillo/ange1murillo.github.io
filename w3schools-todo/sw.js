@@ -5,7 +5,7 @@ self.addEventListener('install', function(e) {
        '/w3schools-todo/',
        '/w3schools-todo/index.html',
        '/w3schools-todo/index.js',
-       '/w3schools-todo/images/zombattck.jpg',
+       '/w3schools-todo/images/jigsaw.png',
        '/w3schools-todo/images/pirate_PNG90.png'
        
      ]);
