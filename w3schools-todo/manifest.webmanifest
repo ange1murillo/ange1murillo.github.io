@@ -4,8 +4,8 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "images/jigsaw.png",
-      "sizes": "64x64",
+      "src": "images/pirate_PNG90.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
