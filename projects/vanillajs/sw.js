@@ -2,20 +2,20 @@ self.addEventListener('install', function(e) {
  e.waitUntil(
    caches.open('vanjs-todo-store').then(function(cache) {
      return cache.addAll([
-       '/',
-       '/index.html',
-       '/index.js',
-       '/images/pirate_PNG90.png',
-       '/js/app.js',
-       '/js/controller.js',
-       '/js/helpers.js',
-       '/js/model.js',
-       '/js/store.js',
-       '/js/template.js',
-       '/js/view.js',
-       '/node_modules/todomvc-app-css/index.css',
-       '/node_modules/todomvc-common/base.css',
-       '/node_modules/todomvc-common/base.js'
+       '/vanillajs/',
+       '/vanillajs/index.html',
+       '/vanillajs/index.js',
+       '/vanillajs/images/pirate_PNG90.png',
+       '/vanillajs/js/app.js',
+       '/vanillajs/js/controller.js',
+       '/vanillajs/js/helpers.js',
+       '/vanillajs/js/model.js',
+       '/vanillajs/js/store.js',
+       '/vanillajs/js/template.js',
+       '/vanillajs/js/view.js',
+       '/vanillajs/node_modules/todomvc-app-css/index.css',
+       '/vanillajs/node_modules/todomvc-common/base.css',
+       '/vanillajs/node_modules/todomvc-common/base.js'
      ]);
    })
  );
