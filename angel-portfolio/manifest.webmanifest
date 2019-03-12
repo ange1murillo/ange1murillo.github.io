@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "w3schools as a PWA.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "images/pirate_PNG90.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "w3schools PWA",
+  "short_name": "w3ToDoPWA",
+  "start_url": "/angel-portfolio/index.html"
+}
