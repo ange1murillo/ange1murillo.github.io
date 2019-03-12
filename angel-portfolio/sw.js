@@ -5,7 +5,8 @@ self.addEventListener('install', function(e) {
        '/angel-portfolio/',
        '/angel-portfolio/index.html',
        '/angel-portfolio/index.js',
-       '/angel-portfolio/images/pirate_PNG90.png'
+       '/angel-portfolio/images/pirate_PNG90.png',
+       '/angel-portfolio/images/skull.png'
        
      ]);
    })
