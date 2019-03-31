@@ -32,7 +32,9 @@ self.addEventListener('install', function(e) {
        '/angel-portfolio/lightbox/lightbox.js',
        '/angel-portfolio/resources/angelresume2.pdf',
        '/angel-portfolio/font/roboto',
-       '/angel-portfolio/styles/w3.css'
+       '/angel-portfolio/styles/w3.css',
+       '/angel-portfolio/font/roboto',
+       '/angel-portfolio/font/fontawesome-free-5.8.1-web',
        
      ]);
    })
