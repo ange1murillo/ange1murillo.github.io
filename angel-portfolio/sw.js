@@ -30,7 +30,9 @@ self.addEventListener('install', function(e) {
        '/angel-portfolio/lightbox/lightbox-plus-jquery.js',
        '/angel-portfolio/lightbox/lightbox.css',
        '/angel-portfolio/lightbox/lightbox.js',
-       '/angel-portfolio/resources/angelresume2.pdf'
+       '/angel-portfolio/resources/angelresume2.pdf',
+       '/angel-portfolio/font/roboto',
+       '/angel-portfolio/styles/w3.css'
        
      ]);
    })
