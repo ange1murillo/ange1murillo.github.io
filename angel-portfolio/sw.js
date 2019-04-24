@@ -33,7 +33,8 @@ self.addEventListener('install', function(e) {
        '/angel-portfolio/resources/angelresume2.pdf',
        '/angel-portfolio/styles/w3.css',
        '/angel-portfolio/font/roboto.css',
-       '/angel-portfolio/font/font-awesome.min.css'
+       '/angel-portfolio/font/font-awesome.min.css',
+       '/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.css'
        
      ]);
    })
