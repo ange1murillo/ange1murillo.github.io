@@ -1,0 +1,155 @@
+#experience {
+	background: url('../img/onpc.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	.experience-overlay {
+		background-color: rgba(255, 255, 255, 0.8);
+		padding: 60px 0;
+	}
+
+	.right {
+		padding-top: 40px;
+
+		.education {
+			h1 {
+				font-size: 2rem;
+				font-weight: 300;
+				padding-bottom: 40px;
+				text-align: center;
+			}
+
+			.box {
+				padding: 40px;
+				background-color: #fff;
+				box-shadow: 0px 10px 20px 4px #00000015;
+				border-radius: 4px;
+				margin-bottom: 30px;
+
+				h3 {
+					font-size: 1.2rem;
+					font-weight: 500;
+					padding-bottom: 10px;
+				}
+
+				h3 span {
+					color: $primaryColor;
+					font-weight: 300;
+					font-style: italic;
+				}
+
+				h5 {
+					color: $primaryColor;
+					padding-bottom: 10px;
+				}
+
+				p {
+					line-height: 20px;
+				}
+			}
+		}
+	}
+
+	.left {
+		padding-top: 40px;
+
+		.experience {
+			h1 {
+				font-size: 2rem;
+				font-weight: 300;
+				padding-bottom: 40px;
+				text-align: center;
+			}
+
+			.box {
+				padding: 40px;
+				background-color: #fff;
+				box-shadow: 0px 10px 20px 4px #00000015;
+				border-radius: 4px;
+
+				h3 {
+					font-size: 1.2rem;
+					font-weight: 500;
+					padding-bottom: 10px;
+				}
+
+				h3 span {
+					color: $primaryColor;
+					font-weight: 300;
+					font-style: italic;
+				}
+
+				h5 {
+					color: $primaryColor;
+					padding-bottom: 10px;
+				}
+
+				p {
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	#experience {
+		.experience-overlay {
+			padding: 20px 0;
+		}
+
+		.right {
+			padding-top: 20px;
+
+			.education {
+				.box {
+					h3 {
+						line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	#experience {
+		.experience-overlay {
+			padding: 20px 0;
+		}
+
+		.right {
+			padding-top: 20px;
+
+			.education {
+				.box {
+					h3 {
+						line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	#experience {
+		.experience-overlay {
+			padding: 20px 0;
+		}
+
+		.right {
+			padding-top: 20px;
+
+			.education {
+				.box {
+					h3 {
+						line-height: 30px;
+					}
+				}
+			}
+		}
+	}
+}

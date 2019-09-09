@@ -1,0 +1,500 @@
+
+
+    .fancybox-content{
+        display: inline-block;
+        max-width: 1200px !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+        margin-left: auto !important;
+        height: 550px !important;
+        margin-right: auto !important;
+        top: 80px !important;
+        overflow-y: scroll;
+
+        .info{
+            h1{
+                font-size: 2.2rem;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            p{
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 30px;
+            }
+
+            .code-boxes{
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+                flex-wrap: wrap;
+
+                .box{
+                    border: 2px solid $primaryColor;
+                    margin-right: 15px;
+                    margin-top: 20px;
+                    padding: 10px 25px;
+                    border-radius: 7px;
+                }
+
+                li:last-child{
+                    margin-right: 0;
+                }
+
+                
+
+            }
+
+
+            .proj-btn{
+
+                margin-top: 40px;
+               
+                // text-align: center;
+                
+                 .proj-link{
+                     
+                     background-color: $primaryColor; 
+                     border-radius: 5px;
+                     display: inline-block;
+                     padding: 15px 25px;
+                     text-decoration: none;
+                     transition: all .8s ease-in-out;
+                     text-align: center;
+                     text-transform: uppercase;
+                     color: #fff;
+                     margin-left: 10px;
+ 
+                     span{
+                         margin-right: 7px;
+                     }
+
+
+                    &:active{
+                        text-decoration: none;
+                        color:  #fff;
+                    }
+                     
+     
+                     &:visited{
+                         text-decoration: none;
+                         color:  #fff;
+                     }
+
+                     &:hover{
+                        text-decoration: none;
+                        color:  #fff;
+                    }
+     
+                    //  &:hover{
+                    //      color: white;
+                    //      background-color: #0bceaf
+                    //  }
+                 
+                 }
+
+                 .git-link{
+                    background-color: #505050; 
+                    border-radius: 5px;
+                    display: inline-block;
+                    padding: 15px 25px;
+                    text-decoration: none;
+                    transition: all .8s ease-in-out;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #fff;
+
+                    &:active{
+                        text-decoration: none;
+                        color:  #fff;
+                    }
+                    
+    
+                    &:visited{
+                        text-decoration: none;
+                        color:  #fff;
+                    }
+
+                    &:hover{
+                        text-decoration: none;
+                        color:  #fff;
+                    }
+
+                
+                }
+
+
+
+ 
+             }
+
+    
+        }
+    
+    
+        .gallery{
+               
+               
+            .img-container{
+                margin: 0 auto;
+                padding-bottom: 20px;
+                display: block;
+                width: 600px;
+                // text-align: center;
+    
+                .img-fluid{
+                    max-width: 100%;
+                    height: auto;
+                    
+                }
+    
+            }
+
+        }
+        
+    
+    }
+
+    @media screen and (max-width: 600px){
+
+        .fancybox-content{
+            padding: 0;
+            
+            .info{
+                h1{
+                    font-size: 1.7rem;
+                    padding: 20px 0;
+                }
+    
+                .code-boxes{
+    
+                    .box{
+                        padding: 5px 15px;
+                    }
+    
+                }
+    
+    
+                .proj-btn{
+                    margin-bottom: 20px;
+                    text-align: center;
+                   
+                    // text-align: center;
+                    
+                     .proj-link{
+                         padding: 10px 15px;
+                     
+                     }
+    
+                     .git-link{
+                        padding: 10px 15px;
+                    
+                    }
+    
+    
+    
+     
+                 }
+    
+        
+            }
+        
+        
+            .gallery{
+                   
+                   
+                .img-container{
+                    width: 100%;
+                    // text-align: center;
+        
+                    .img-fluid{
+                        max-width: 100%;
+                        height: auto;
+                        
+                    }
+        
+                }
+                
+            }
+            
+        
+        }
+
+    }
+
+    @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+
+
+
+    .fancybox-content{
+        padding: 0;
+        
+        .info{
+            h1{
+                font-size: 1.7rem;
+                padding: 20px 0;
+            }
+
+            .code-boxes{
+
+                .box{
+                    padding: 5px 15px;
+                }
+
+            }
+
+
+            .proj-btn{
+                margin-bottom: 20px;
+                text-align: center;
+               
+                // text-align: center;
+                
+                 .proj-link{
+                     padding: 10px 15px;
+                 
+                 }
+
+                 .git-link{
+                    padding: 10px 15px;
+                
+                }
+
+
+
+ 
+             }
+
+    
+        }
+    
+    
+        .gallery{
+               
+               
+            .img-container{
+                width: 100%;
+                // text-align: center;
+    
+                .img-fluid{
+                    max-width: 100%;
+                    height: auto;
+                    
+                }
+    
+            }
+            
+        }
+        
+    
+    }
+
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+    .fancybox-content{
+        padding: 0;
+        
+        .info{
+            h1{
+                font-size: 1.7rem;
+                padding: 20px 0;
+            }
+
+            .code-boxes{
+
+                .box{
+                    padding: 5px 15px;
+                }
+
+            }
+
+
+            .proj-btn{
+                margin-bottom: 20px;
+                text-align: center;
+               
+                // text-align: center;
+                
+                 .proj-link{
+                     padding: 10px 15px;
+                 
+                 }
+
+                 .git-link{
+                    padding: 10px 15px;
+                
+                }
+ 
+             }
+        }
+    
+    
+        .gallery{
+               
+               
+            .img-container{
+                width: 100%;
+                // text-align: center;
+    
+                .img-fluid{
+                    max-width: 100%;
+                    height: auto;
+                    
+                }
+    
+            }
+            
+        }
+        
+    
+    }
+
+ }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+    .fancybox-content{
+        padding: 0;
+        
+        .info{
+            h1{
+                font-size: 1.7rem;
+                padding: 20px 0;
+            }
+
+            .code-boxes{
+
+                .box{
+                    padding: 5px 15px;
+                }
+
+            }
+
+
+            .proj-btn{
+                margin-bottom: 20px;
+                text-align: center;
+               
+                // text-align: center;
+                
+                 .proj-link{
+                     padding: 10px 15px;
+                 
+                 }
+
+                 .git-link{
+                    padding: 10px 15px;
+                
+                }
+ 
+             }
+        }
+    
+    
+        .gallery{
+               
+               
+            .img-container{
+                width: 100%;
+                // text-align: center;
+    
+                .img-fluid{
+                    max-width: 100%;
+                    height: auto;
+                    
+                }
+    
+            }
+            
+        }
+        
+    
+    }
+
+
+ }
+
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    .fancybox-content{
+        padding: 0;
+        
+        .info{
+            h1{
+                font-size: 1.7rem;
+                padding: 20px 0;
+            }
+
+            .code-boxes{
+
+                .box{
+                    padding: 5px 15px;
+                }
+
+            }
+
+
+            .proj-btn{
+                margin-bottom: 20px;
+                text-align: center;
+               
+                // text-align: center;
+                
+                 .proj-link{
+                     padding: 10px 15px;
+                 
+                 }
+
+                 .git-link{
+                    padding: 10px 15px;
+                
+                }
+ 
+             }
+        }
+    
+    
+        .gallery{
+               
+               
+            .img-container{
+                width: 100%;
+                // text-align: center;
+    
+                .img-fluid{
+                    max-width: 100%;
+                    height: auto;
+                    
+                }
+    
+            }
+            
+        }
+        
+    
+    }
+
+
+
+}
+
+
+
+
+

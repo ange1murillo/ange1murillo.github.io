@@ -1,0 +1,445 @@
+#contact-me{
+
+    background: url('../img/map-color-overlay.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 150px 0;
+    height: 700px;
+    width: 100%;
+
+    h1{
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+
+   .form-section{
+
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        width: 100%;
+       
+        form{
+            display: inline-block;
+            margin: 0 auto;
+            width: 75%;
+
+
+            .form-control{
+                border: 2px solid #cbd0d3;
+                border-radius: 0;
+                line-height: 40px;
+                background: transparent;
+
+                &:focus{
+                    border-color: $primaryColor !important;
+                    box-shadow: rgba(11, 206, 175, .7) !important;
+                }
+                
+               
+            }
+
+            
+
+            .contact-btn{
+               
+                text-align: center;
+                
+                 .btn{
+                    //  border: 2px solid #0bceaf; 
+                     background: $primaryColor;
+                     color: #fff;
+                     border-radius: 5px;
+                     display: inline-block;
+                     padding: 15px 40px;
+                     text-decoration: none;
+                     transition: all .8s ease-in-out;
+                     text-align: center;
+                     text-transform: uppercase;
+ 
+                     span{
+                         margin-right: 7px;
+                     }
+                     
+     
+                     &:visited{
+                         color:  #0bceaf;
+                     }
+     
+                    //  &:hover{
+                    //      color: white;
+                    //      background-color: #0bceaf
+                    //  }
+                 
+                 }
+ 
+             }
+            
+        }
+   }
+
+   .footer{
+       padding: 40px 0;
+
+       .left{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+       .copy-right{
+           font-size: 1rem;
+           font-weight: 300;
+       
+            }
+       }
+
+       .right{
+
+            .social-links{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                .fab{
+                    font-size: 1rem;
+                    margin-right: 50px;
+                    color: #000;
+
+                    &:hover{
+                        transition: all .4s ease-in-out;
+                        color: $primaryColor;
+                    }
+
+                }
+            }
+           
+       }
+
+   }
+
+
+}
+
+input[type="text"],  textarea{
+    padding: 25px !important;
+    border-radius: 10px !important;
+    color: $primaryColor !important;
+    font-size: 1.2rem !important;
+
+}
+
+input[type="email"]{
+    padding: 25px !important;
+    border-radius: 10px !important;
+    color: $primaryColor !important;
+    font-size: 1.2rem !important;
+}
+
+@media screen and (max-width: 600px){
+
+    #contact-me{
+    
+        padding: 100px 0 20px 0;
+        height: auto;
+    
+       .form-section{
+           
+            form{
+                width: 100%;
+    
+                .contact-btn{
+                    padding-top: 20px;
+     
+                 }
+                
+            }
+       }
+    
+       .footer{
+           padding: 60px 0 150px 0;
+    
+           .left{
+            justify-content: center;
+    
+           }
+    
+           .right{
+               padding-top: 20px;
+    
+                .social-links{
+    
+                    .fab{
+
+                        margin-right: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+    
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+
+    #contact-me{
+    
+        padding: 100px 0 20px 0;
+        height: auto;
+    
+       .form-section{
+           
+            form{
+                width: 100%;
+    
+                .contact-btn{
+                    padding-top: 20px;
+     
+                 }
+                
+            }
+       }
+    
+       .footer{
+           padding: 60px 0 150px 0;
+    
+           .left{
+            justify-content: center;
+    
+           }
+    
+           .right{
+               padding-top: 20px;
+    
+                .social-links{
+    
+                    .fab{
+
+                        margin-right: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+    #contact-me{
+    
+        padding: 100px 0 20px 0;
+        height: auto;
+    
+       .form-section{
+           
+            form{
+                width: 100%;
+    
+                .contact-btn{
+                    padding-top: 20px;
+     
+                 }
+                
+            }
+       }
+    
+       .footer{
+           padding: 60px 0 150px 0;
+    
+           .left{
+            justify-content: center;
+    
+           }
+    
+           .right{
+               padding-top: 20px;
+    
+                .social-links{
+    
+                    .fab{
+
+                        margin-right: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+
+ }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+    #contact-me{
+    
+        padding: 100px 0 20px 0;
+        height: auto;
+    
+       .form-section{
+           
+            form{
+                width: 100%;
+    
+                .contact-btn{
+                    padding-top: 20px;
+     
+                 }
+                
+            }
+       }
+    
+       .footer{
+           padding: 60px 0 150px 0;
+    
+           .left{
+            justify-content: center;
+    
+           }
+    
+           .right{
+               padding-top: 20px;
+    
+                .social-links{
+    
+                    .fab{
+
+                        margin-right: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+
+ }
+
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    #contact-me{
+        padding-top: 220px;
+        height: 1100px;
+    
+    
+       .footer{
+          
+    
+           .left{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-bottom: 20px;
+           }
+    
+           .right{
+    
+                .social-links{
+    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    
+                    .fab{
+                        font-size: 1.3rem;
+                        margin-right: 20px;
+                        margin-left: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+
+    #contact-me{
+        padding: 400px 0 0 0;
+        height: 1400px;
+    
+    
+       .footer{
+          
+    
+           .left{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-bottom: 20px;
+           }
+    
+           .right{
+    
+                .social-links{
+    
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    
+                    .fab{
+                        font-size: 1.3rem;
+                        margin-right: 20px;
+                        margin-left: 20px;
+    
+                    }
+                }
+               
+           }
+    
+       }
+    
+    
+    }
+
+
+}

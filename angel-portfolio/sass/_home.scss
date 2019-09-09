@@ -1,0 +1,580 @@
+#home {
+	background: url('../img/onpc.jpeg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+
+	.home-overlay-color {
+		background-color: rgba(255, 255, 255, 0.8);
+		height: 100vh;
+	}
+
+	.row {
+		padding-top: 200px;
+
+		.left {
+			padding-left: 40px;
+			.speech-bubble {
+				background-color: #0bceaf;
+				color: white;
+				width: 30%;
+				border-radius: 5px;
+				text-align: center;
+				padding: 10px;
+				margin-bottom: 35px;
+			}
+
+			h1 {
+				font-size: 3.5rem;
+				font-weight: 500;
+				padding-bottom: 20px;
+			}
+
+			h2 {
+				font-size: 2.5rem;
+				font-weight: 300;
+				padding-bottom: 40px;
+			}
+
+			ul.info {
+				li {
+					.fas {
+						margin-right: 10px;
+						&:hover {
+							color: #0bceaf;
+						}
+					}
+				}
+
+				li:not(:last-child) {
+					padding-bottom: 25px;
+				}
+
+				a {
+					text-decoration: none;
+					color: #000;
+
+					&:visited {
+						color: #000;
+					}
+				}
+			}
+
+			ul.social-links {
+				margin-top: 30px;
+				display: flex;
+
+				li {
+					padding: 15px;
+					margin-right: 20px;
+					cursor: pointer;
+					border-radius: 5px;
+
+					.fab {
+						font-size: 25px;
+						color: $primaryColor;
+					}
+
+					&:hover {
+						color: #0bceaf;
+						background-color: #000;
+					}
+				}
+
+				a {
+					&:visited {
+						color: #0bceaf;
+					}
+				}
+			}
+		}
+
+		.right {
+			.outer-circle {
+				background-color: #0bceaf;
+				width: 400px;
+				height: 400px;
+				margin: 0 auto;
+				border-radius: 50%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				.circle-frame {
+					margin: 0 auto;
+					width: 350px;
+					height: 350px;
+					background: url('../img/angel-pfp.jpg') no-repeat center center;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#home {
+		height: 800px;
+
+		.home-overlay-color {
+			background-color: rgba(255, 255, 255, 0.8);
+			height: 800px;
+		}
+
+		.row {
+			padding-top: 100px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+
+			.left {
+				padding: 0;
+				text-align: center;
+				margin: 0 auto;
+
+				.speech-bubble {
+					width: 50%;
+					margin: 0 auto;
+					margin-top: 35px;
+					font-size: 1rem;
+				}
+
+				h1 {
+					font-size: 2rem;
+					padding-top: 20px;
+				}
+
+				h2 {
+					font-size: 1.5rem;
+				}
+
+				ul.info {
+					li {
+						.fas {
+							margin-right: 10px;
+							&:hover {
+								color: #0bceaf;
+							}
+						}
+					}
+
+					li:not(:last-child) {
+						padding-bottom: 25px;
+					}
+
+					a {
+						text-decoration: none;
+						color: #000;
+
+						&:visited {
+							color: #000;
+						}
+					}
+				}
+
+				ul.social-links {
+					margin-top: 15px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						margin-right: 0;
+					}
+
+					li:not(:last-child) {
+						margin-right: 10px;
+					}
+				}
+			}
+
+			.right {
+				margin: 0 auto;
+				text-align: center;
+
+				.outer-circle {
+					width: 300px;
+					height: 300px;
+
+					.circle-frame {
+						width: 260px;
+						height: 260px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	#home {
+		height: 800px;
+
+		.home-overlay-color {
+			background-color: rgba(255, 255, 255, 0.8);
+			height: 800px;
+		}
+
+		.row {
+			padding-top: 100px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+
+			.left {
+				padding: 0;
+				text-align: center;
+				margin: 0 auto;
+
+				.speech-bubble {
+					width: 50%;
+					margin: 0 auto;
+					margin-top: 35px;
+					font-size: 1rem;
+				}
+
+				h1 {
+					font-size: 2rem;
+					padding-top: 20px;
+				}
+
+				h2 {
+					font-size: 1.5rem;
+				}
+
+				ul.info {
+					li {
+						.fas {
+							margin-right: 10px;
+							&:hover {
+								color: #0bceaf;
+							}
+						}
+					}
+
+					li:not(:last-child) {
+						padding-bottom: 25px;
+					}
+
+					a {
+						text-decoration: none;
+						color: #000;
+
+						&:visited {
+							color: #000;
+						}
+					}
+				}
+
+				ul.social-links {
+					margin-top: 15px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						margin-right: 0;
+					}
+
+					li:not(:last-child) {
+						margin-right: 10px;
+					}
+				}
+			}
+
+			.right {
+				margin: 0 auto;
+				text-align: center;
+
+				.outer-circle {
+					width: 300px;
+					height: 300px;
+
+					.circle-frame {
+						width: 260px;
+						height: 260px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	#home {
+		height: 800px;
+
+		.home-overlay-color {
+			background-color: rgba(255, 255, 255, 0.8);
+			height: 800px;
+		}
+
+		.row {
+			padding-top: 100px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+
+			.left {
+				padding: 0;
+				text-align: center;
+				margin: 0 auto;
+
+				.speech-bubble {
+					width: 50%;
+					margin: 0 auto;
+					margin-top: 35px;
+					font-size: 1rem;
+				}
+
+				h1 {
+					font-size: 2rem;
+					padding-top: 20px;
+				}
+
+				h2 {
+					font-size: 1.5rem;
+				}
+
+				ul.info {
+					li {
+						.fas {
+							margin-right: 10px;
+							&:hover {
+								color: #0bceaf;
+							}
+						}
+					}
+
+					li:not(:last-child) {
+						padding-bottom: 25px;
+					}
+
+					a {
+						text-decoration: none;
+						color: #000;
+
+						&:visited {
+							color: #000;
+						}
+					}
+				}
+
+				ul.social-links {
+					margin-top: 15px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						margin-right: 0;
+					}
+
+					li:not(:last-child) {
+						margin-right: 10px;
+					}
+				}
+			}
+
+			.right {
+				margin: 0 auto;
+				text-align: center;
+
+				.outer-circle {
+					width: 300px;
+					height: 300px;
+
+					.circle-frame {
+						width: 260px;
+						height: 260px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	#home {
+		height: 750px;
+
+		.home-overlay-color {
+			background-color: rgba(255, 255, 255, 0.8);
+			height: 750px;
+		}
+
+		.row {
+			padding-top: 100px;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+
+			.left {
+				padding: 0;
+				text-align: center;
+				margin: 0 auto;
+
+				.speech-bubble {
+					width: 50%;
+					margin: 0 auto;
+					margin-top: 35px;
+					font-size: 1rem;
+				}
+
+				h1 {
+					font-size: 2rem;
+					padding-top: 20px;
+				}
+
+				h2 {
+					font-size: 1.5rem;
+				}
+
+				ul.info {
+					li {
+						.fas {
+							margin-right: 10px;
+							&:hover {
+								color: #0bceaf;
+							}
+						}
+					}
+
+					li:not(:last-child) {
+						padding-bottom: 25px;
+					}
+
+					a {
+						text-decoration: none;
+						color: #000;
+
+						&:visited {
+							color: #000;
+						}
+					}
+				}
+
+				ul.social-links {
+					margin-top: 15px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						margin-right: 0;
+					}
+
+					li:not(:last-child) {
+						margin-right: 10px;
+					}
+				}
+			}
+
+			.right {
+				margin: 0 auto;
+				text-align: center;
+
+				.outer-circle {
+					width: 260px;
+					height: 260px;
+
+					.circle-frame {
+						width: 230px;
+						height: 230px;
+					}
+				}
+			}
+		}
+	}
+}
+
+//////////////////ipad query
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#home {
+		height: 700px;
+
+		.home-overlay-color {
+			height: 700px;
+		}
+
+		.row {
+			.left {
+				h1 {
+					font-size: 2.7rem;
+				}
+
+				h2 {
+					font-size: 1.7rem;
+				}
+
+				ul.info {
+					li {
+						font-size: 1rem;
+					}
+				}
+			}
+
+			.right {
+				.outer-circle {
+					width: 320px;
+					height: 320px;
+
+					.circle-frame {
+						width: 280px;
+						height: 280px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+	#home {
+		height: 700px;
+
+		.home-overlay-color {
+			height: 700px;
+		}
+
+		.row {
+			.left {
+				padding-left: 60px;
+				h1 {
+					font-size: 2.7rem;
+				}
+
+				h2 {
+					font-size: 1.7rem;
+				}
+
+				ul.info {
+					li {
+						font-size: 1rem;
+					}
+				}
+			}
+
+			.right {
+				.outer-circle {
+					width: 380px;
+					height: 380px;
+
+					.circle-frame {
+						width: 340px;
+						height: 340px;
+					}
+				}
+			}
+		}
+	}
+}

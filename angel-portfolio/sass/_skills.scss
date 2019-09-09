@@ -1,0 +1,178 @@
+#skills {
+	padding: 150px 0;
+	// height: 100vh;
+
+	.tech-skills {
+		padding-right: 80px;
+
+		h2 {
+			font-size: 2rem;
+			font-weight: 300;
+			padding-bottom: 40px;
+			text-align: center;
+		}
+
+		.progress {
+			margin-bottom: 40px;
+		}
+
+		.progress-bar {
+			background-color: $primaryColor;
+			color: #fff;
+		}
+
+		.progress .progress-bar {
+			animation-name: animateBar;
+			animation-iteration-count: 1;
+			animation-timing-function: ease-in;
+			animation-duration: 1.5s;
+		}
+		@keyframes animateBar {
+			0% {
+				transform: translateX(-100%);
+			}
+			100% {
+				transform: translateX(0);
+			}
+		}
+	}
+
+	.professional-skills {
+		margin: 0 auto;
+		text-align: center;
+		padding-left: 80px;
+
+		h2 {
+			font-size: 2rem;
+			font-weight: 300;
+			padding-bottom: 40px;
+		}
+
+		.top {
+			display: flex;
+			justify-content: space-around;
+			padding-bottom: 40px;
+		}
+
+		.bottom {
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#skills {
+		padding: 80px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding-top: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+	#skills {
+		padding: 80px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding-top: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+	#skills {
+		padding: 80px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding-top: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+	#skills {
+		padding: 80px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding-top: 20px;
+			}
+		}
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	#skills {
+		padding: 100px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding-top: 20px;
+			}
+		}
+	}
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+	#skills {
+		padding: 80px 0;
+		// height: 100vh;
+
+		.tech-skills {
+			padding: 30px 0;
+		}
+
+		.professional-skills {
+			padding: 0;
+
+			h2 {
+				padding: 30px 0;
+			}
+		}
+	}
+}

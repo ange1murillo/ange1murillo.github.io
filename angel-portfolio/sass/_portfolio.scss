@@ -1,0 +1,356 @@
+#portfolio{
+    padding-top: 150px;
+    height: auto;
+
+    h1{
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    nav{
+        padding: 20px 20px 40px 20px;
+     
+         ul{
+           display: flex;
+           justify-content: center;
+           font-size: 18px;
+           font-weight: 400;
+     
+     
+           li span{
+             padding: 15px;
+             cursor: pointer;
+             text-decoration: none !important;
+             transition: all .3s ease-in-out;
+             line-height: 30px;
+             margin-right: 20px;
+
+             &:visited{
+               color: #000;
+             }
+     
+             &:hover{
+               
+               color: #0bceaf;
+             }
+     
+           }
+
+
+           li{
+               &.active{
+                   span{
+                    border-bottom: 2px solid #0bceaf;;
+                   }
+                   
+               }
+           }
+
+         
+
+        
+     
+         }
+       }
+
+       .projects{
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           align-content: start;
+           justify-content: space-between;
+           justify-content: center;
+        //    align-items: center;
+         
+           
+        
+
+        .grid-item{
+            width: 325px;
+            height: 325px;
+            border-radius: 5px;
+            // background-color: black;
+            margin: 15px 30px 15px 15px;
+            display: block;
+            cursor: pointer;
+            margin-bottom: 1.5rem;
+
+           
+
+           
+            .inside{
+                position: relative;
+                width: 325px;
+                height: 325px;
+                display: inline-block;
+                border-radius: 5px;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    display: block;
+                }
+
+                
+
+                .overlay{
+                    background: rgba(11, 206, 175, .7);
+                    position: absolute;
+                    transition: all .3s ease;
+                    opacity: 0;
+                    width: 325px;
+                    height: 325px;
+                    border-radius: 5px;
+                    text-align: center;
+
+                    .fas{
+                        opacity: 1;
+                        color: #fff;
+                        font-size: 30px;
+                        padding-top: 80px;
+                        margin-bottom: 15px;
+                    }
+
+                    h2{
+                        font-size: 1.8rem;
+                        font-weight: 600;
+                        color: #fff;
+                        padding-bottom: 20px;
+                        margin-right: -250px;
+                        visibility: hidden;
+                        
+                    }
+
+                    h3{
+                        font-size: 1rem;
+                        font-weight: 500;
+                        color: #fff;
+                        margin-left: -250px;
+                        visibility: hidden;
+                    }
+                    
+
+                    &:hover{
+                        opacity: 1;
+
+                        h2{
+                            margin-right: 0;
+                            transition: all .8s ease-in-out;
+                            visibility: visible;
+                        }
+
+                        h3{
+                            margin-left: 0;
+                            transition: all .8s ease-in-out;
+                            visibility: visible;
+                        }
+                        
+                    }
+
+                    
+                }
+
+                .overlay-fade{
+                    height: 100%;
+                    width: 100%;
+                    top: 0;
+                    left: 0;
+                }
+
+
+
+
+            }  
+}
+
+
+
+       }
+
+    }
+
+
+    @media screen and (max-width: 600px){
+
+        #portfolio{
+            padding-top: 80px;
+        
+        
+            nav{
+             
+                 ul{
+                   flex-wrap: wrap;
+             
+                   li span{
+                     padding: 5px 0;
+             
+                   }
+        
+        
+                   li{
+                       padding-bottom: 10px;
+                   }
+                 }
+               }
+        
+               .projects{
+                 
+                .grid-item{
+                    margin: 0;
+                    margin-bottom: 1.5rem;
+               
+        }
+               }
+        
+            }
+
+    }
+
+    @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+
+    #portfolio{
+        padding-top: 80px;
+    
+    
+        nav{
+         
+             ul{
+               flex-wrap: wrap;
+         
+               li span{
+                 padding: 5px 0;
+         
+               }
+    
+    
+               li{
+                   padding-bottom: 10px;
+               }
+             }
+           }
+    
+           .projects{
+             
+            .grid-item{
+                margin: 0;
+                margin-bottom: 1.5rem;
+           
+    }
+           }
+    
+        }
+
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+    #portfolio{
+        padding-top: 80px;
+    
+    
+        nav{
+         
+             ul{
+               flex-wrap: wrap;
+         
+               li span{
+                 padding: 5px 0;
+         
+               }
+    
+    
+               li{
+                   padding-bottom: 10px;
+               }
+             }
+           }
+    
+           .projects{
+             
+            .grid-item{
+                margin: 0;
+                margin-bottom: 1.5rem;
+           
+    }
+           }
+    
+        }
+
+ }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+    #portfolio{
+        padding-top: 80px;
+    
+    
+        nav{
+         
+             ul{
+               flex-wrap: wrap;
+         
+               li span{
+                 padding: 5px 0;
+         
+               }
+    
+    
+               li{
+                   padding-bottom: 10px;
+               }
+             }
+           }
+    
+           .projects{
+             
+            .grid-item{
+                margin: 0;
+                margin-bottom: 1.5rem;
+
+                .inside{
+                    width: 100%;
+                }
+           
+                }
+           }
+    
+        }
+
+
+ }
+
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    #portfolio{
+        padding-top: 100px;
+    
+    
+           .projects{
+    
+            .grid-item{
+                width: 300px;
+
+                }
+    
+           }
+    
+        }
+
+
+}

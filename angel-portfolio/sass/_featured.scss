@@ -1,0 +1,451 @@
+#featured{
+
+    background: url('../img/onpc.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+    .featured-overlay{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 50px 0;
+      }
+
+      .title{
+          font-size: 2.5rem;
+          font-weight: 300;
+          padding: 50px 0;
+          text-align: center;
+      }
+
+    .owl-wrapper{
+        .owl-carousel{
+            .item{
+                background-color: transparent;
+                width: 1110px;
+                height: 500px;
+                position: relative;
+
+                .left{
+                    height: 500px;
+                   
+                    .image-container{
+                        
+                        width: 100%;
+                        height: 500px;
+                        margin: 0 auto;
+                        img{
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
+                    }
+                    
+                }
+
+                .right{
+                    h2{
+                        font-size: 2rem;
+                        font-weight: 500;
+                        margin: 30px 0;
+                    }
+
+                    h3{
+                        font-size: 1.5rem;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+                    }
+
+                    p{
+                        line-height: 25px;
+                    }
+
+                    .proj-btn{
+                        
+                         .proj-link{
+                             background: $primaryColor;
+                             border-radius: 20px;
+                             display: inline-block;
+                             padding: 10px 30px;
+                             text-decoration: none;
+                             transition: all .8s ease-in-out;
+                             text-align: center;
+                             text-transform: uppercase;
+                             color: #fff;
+                             margin-top: 25px;
+
+         
+                             span{
+                                 margin-right: 7px;
+                             }
+                             
+                         
+                         }
+                     }
+                }
+            }
+
+            .owl-nav{
+
+            .owl-prev{
+                font-size: 70px;
+                position: absolute;
+                left: -50px;
+                top: 125px;
+                outline: none;
+
+                &:hover{
+                    background-color: transparent;
+                    color: #0bceaf;
+                }
+            }
+
+            .owl-next{
+                font-size: 70px;
+                position: absolute;
+                right: -50px;
+                top: 125px;
+                outline: none;
+
+
+                &:hover{
+                    background-color: transparent;
+                    color: #0bceaf;
+                }
+            }
+
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #featured{
+        max-height: 800px;
+    
+        .featured-overlay{
+            padding: 10px 0;
+          }
+    
+          .title{
+              padding: 40px 0;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+    
+                    .left{
+                        width: 100%;                      
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 200px;
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+
+    #featured{
+    
+        .featured-overlay{
+            padding: 10px 0;
+          }
+    
+          .title{
+              padding: 40px 0;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+    
+                    .left{
+                        width: 100%;                      
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 150px;
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+    #featured{
+    
+        .featured-overlay{
+            padding: 10px 0;
+          }
+    
+          .title{
+              padding: 40px 0;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+    
+                    .left{
+                        width: 100%;                      
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 150px;
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+
+ }
+
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+    #featured{
+        height: 650px;
+    
+        .featured-overlay{
+            padding: 50px 0;
+          }
+    
+          .title{
+              font-size: 2rem;
+              padding: 20px 0;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+    
+                    .left{
+                        width: 100%;                      
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 140px;
+
+                        h2{
+                            font-size: 1.8rem;
+                        }
+
+                        p{
+                            line-height: 22px;
+                        }
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+
+
+
+ }
+
+
+ /////////////////ipad query
+
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    #featured{
+        height: 800px;
+    
+        .featured-overlay{
+            padding: 0;
+            height: 800px;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+                    height: 800px;
+    
+                    .left{
+                        width: 100%;
+                       
+                        .image-container{
+                            height: auto;
+                        }
+                        
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 350px;
+    
+    
+                        p{
+                            line-height: 25px;
+                        }
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+
+
+}
+
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    #featured{
+        height: 900px;
+    
+        .featured-overlay{
+            padding: 0;
+            height: 900px;
+          }
+    
+        .owl-wrapper{
+            .owl-carousel{
+                .item{
+                    width: 100%;
+                    height: 900px;
+    
+                    .left{
+                        width: 100%;
+                       
+                        .image-container{
+                            height: auto;
+                        }
+                        
+                    }
+    
+                    .right{
+                        width: 100%;
+                        position: absolute;
+                        top: 460px;
+    
+    
+                        p{
+                            line-height: 25px;
+                        }
+                    }
+                }
+    
+                .owl-nav{
+    
+                .owl-prev{
+                    display: none;
+                }
+    
+                .owl-next{
+                    display: none;
+                }
+    
+                }
+    
+            }
+        }
+    }
+
+
+}
